@@ -50,7 +50,6 @@ erDiagram
     CLIENT |o--o{ COMMANDE : passe
     COMMANDE ||--o{ LIGNE_COMMANDE : contient
     PRODUIT ||--o{ LIGNE_COMMANDE : figure_dans
-    CATEGORIE|o--o{ PRODUIT : 
-    regroupe
+    CATEGORIE|o--o{ PRODUIT : regroupe
 ```
 
